@@ -2,7 +2,7 @@
 Android Quick Settings for LINE Pay & Taishin Pay
 
 ## Screenshot
-<img src="https://github.com/hearsilent/LinePay-QuickSettings/raw/main/screenshots/Screenshot_20250909_021821.png" height="500">
+<img src="https://github.com/hearsilent/QuickPay/raw/main/screenshots/Screenshot_20250909_021821.png" height="500">
 
 ## Compatibility
 
