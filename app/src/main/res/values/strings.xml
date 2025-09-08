@@ -1,4 +1,5 @@
 <resources>
-    <string name="app_name">LINE Pay QuickSettings</string>
-    <string name="quick_settings_name">LINE Pay</string>
+    <string name="app_name">QuickPay</string>
+    <string name="quick_settings_line_pay">LINE Pay</string>
+    <string name="quick_settings_taishin_pay">台新 Pay</string>
 </resources>
