@@ -2,13 +2,10 @@ package com.hearsilent.quickpay
 
 import android.annotation.SuppressLint
 import android.app.PendingIntent
-import android.content.ComponentName
 import android.content.Intent
-import android.net.Uri
 import android.os.Build
 import android.service.quicksettings.TileService
 import androidx.core.net.toUri
-import kotlin.jvm.java
 
 class LinePayTileService : TileService() {
 
