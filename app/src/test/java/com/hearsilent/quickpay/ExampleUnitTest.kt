@@ -1,4 +1,4 @@
-package com.hearsilent.linepay.quicksettings
+package com.hearsilent.quickpay
 
 import org.junit.Test
 
