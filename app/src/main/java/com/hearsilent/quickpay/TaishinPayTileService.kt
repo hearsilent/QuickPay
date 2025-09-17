@@ -4,10 +4,17 @@ import android.annotation.SuppressLint
 import android.app.PendingIntent
 import android.content.Intent
 import android.os.Build
+import android.service.quicksettings.Tile.STATE_INACTIVE
 import android.service.quicksettings.TileService
 import androidx.core.net.toUri
 
 class TaishinPayTileService : TileService() {
+
+    override fun onStartListening() {
+        super.onStartListening()
+        qsTile.state = STATE_INACTIVE
+        qsTile.updateTile()
+    }
 
     @SuppressLint("StartActivityAndCollapseDeprecated")
     override fun onClick() {
