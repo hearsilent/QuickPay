@@ -2,4 +2,5 @@
     <string name="app_name">QuickPay</string>
     <string name="quick_settings_line_pay">LINE Pay</string>
     <string name="quick_settings_taishin_pay">台新 Pay</string>
+    <string name="quick_settings_pxpay_plus">全支付</string>
 </resources>

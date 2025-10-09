@@ -5,6 +5,7 @@
     <queries>
         <package android:name="com.linepaytw.upay" />
         <package android:name="tw.com.taishinbank.ccapp" />
+        <package android:name="com.pxpayplus.app" />
     </queries>
 
     <application
@@ -37,6 +38,21 @@
             android:exported="true"
             android:icon="@drawable/ic_taishin_24dp"
             android:label="@string/quick_settings_taishin_pay"
+            android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.service.quicksettings.TOGGLEABLE_TILE"
+                android:value="true" />
+        </service>
+
+        <service
+            android:name=".PxPayPlusTileService"
+            android:exported="true"
+            android:icon="@drawable/ic_pxpay_plus_24dp"
+            android:label="@string/quick_settings_pxpay_plus"
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
