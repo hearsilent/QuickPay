@@ -3,4 +3,17 @@
     <string name="quick_settings_line_pay">LINE Pay</string>
     <string name="quick_settings_taishin_pay">台新 Pay</string>
     <string name="quick_settings_pxpay_plus">全支付</string>
+
+    <string name="current_version">版本：%s</string>
+    <string name="latest_version">新版本：%s</string>
+    <string name="release_notes">更新日誌</string>
+
+    <string name="no_update">您已擁有最新版本</string>
+    <string name="check_update_failed">檢查更新失敗</string>
+
+    <string name="check_update">檢查更新</string>
+    <string name="update_now">立即更新</string>
+
+    <string name="got_it">我知道了</string>
+
 </resources>
