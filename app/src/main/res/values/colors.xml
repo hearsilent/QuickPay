@@ -5,8 +5,8 @@
     <color name="colorPrimaryLight">#5865F2</color>
     <color name="colorAccent">#FFCA6C</color>
 
-    <color name="textColorPrimary">#FFFFFF</color>
-    <color name="textColorSecondary">#B0B3C0</color>
+    <color name="textColorPrimary">#1D1B20</color>
+    <color name="textColorSecondary">#49454F</color>
 
     <color name="transparent">#00000000</color>
 </resources>

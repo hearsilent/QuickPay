@@ -1,6 +1,7 @@
 package com.hearsilent.quickpay.activity
 
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.text.SpannableString
 import android.text.Spanned
@@ -77,7 +78,7 @@ class MainActivity : AppCompatActivity() {
                         mBinding.textViewDesc.setTextColor(getColor(R.color.textColorSecondary))
                         mBinding.textViewDesc.text = getString(R.string.no_update)
 
-                        mBinding.button.setTextColor(getColor(R.color.textColorPrimary))
+                        mBinding.button.setTextColor(Color.WHITE)
                         mBinding.button.setBackgroundColor(getColor(R.color.colorPrimary))
                         mBinding.button.text = getString(R.string.check_update)
 
@@ -113,7 +114,7 @@ class MainActivity : AppCompatActivity() {
                     mBinding.textViewContent.movementMethod = SelectableLinkMovementMethod.instance
                     mBinding.textViewDesc.text = getString(R.string.check_update_failed)
 
-                    mBinding.button.setTextColor(getColor(R.color.textColorPrimary))
+                    mBinding.button.setTextColor(Color.WHITE)
                     mBinding.button.setBackgroundColor(getColor(R.color.colorPrimary))
                     mBinding.button.text = getString(R.string.check_update)
 
