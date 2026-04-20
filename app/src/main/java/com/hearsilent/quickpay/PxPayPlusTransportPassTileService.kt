@@ -8,7 +8,7 @@ import android.service.quicksettings.Tile.STATE_INACTIVE
 import android.service.quicksettings.TileService
 import androidx.core.net.toUri
 
-class PxPayPlusTileService : TileService() {
+class PxPayPlusTransportPassTileService : TileService() {
 
     override fun onStartListening() {
         super.onStartListening()
@@ -22,8 +22,8 @@ class PxPayPlusTileService : TileService() {
         val packageName = "com.pxpayplus.app"
         try {
             val intent = Intent(Intent.ACTION_VIEW).apply {
-                data = "com.pxpay.plus://zjdja".toUri()
-                setClassName(packageName, "com.pxpayplus.sdk.DeepLinkRecognizeActivity")
+                putExtra("launcher_action", "action_transport_pass")
+                setClassName(packageName, "com.pxpayplus.app.LauncherActivity")
                 flags = Intent.FLAG_ACTIVITY_NEW_TASK
             }
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE) {
