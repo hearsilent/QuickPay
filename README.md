@@ -4,6 +4,19 @@ Android Quick Settings for LINE Pay & Taishin Pay
 ## Screenshot
 <img src="https://github.com/user-attachments/assets/7b3fa39b-f15e-48ff-93a3-12b367f4955b" height="500">
 
+## Installation & Updates
+
+### Method 1: Manual Download
+You can manually grab the latest APK from the [Releases](https://github.com/hearsilent/QuickPay/releases) page.
+
+### Method 2: Automatic Updates via Obtainium (Recommended)
+To receive seamless update notifications directly from GitHub, we recommend using **[Obtainium](https://obtainium.imranr.dev/)**.
+
+**Setup Instructions:**
+1. Install **Obtainium** on your Android device.
+2. Copy this repository's URL: `https://github.com/hearsilent/QuickPay`
+3. In Obtainium, tap **"Add App"**, paste the URL, and click **"Add"**.
+4. You will now be notified of new releases and can update with a single click.
 
 ## Compatibility
 
